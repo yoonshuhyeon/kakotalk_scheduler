@@ -59,11 +59,11 @@ def get_corrected_kst_time():
 schedule_list = [
     {
         'time': '09:00:00',
-        'messages': '굿모닝'
+        'messages': '1차 회의시간'
     },
     {
         'time': '12:00',
-        'messages': '점심 먹을 시간'
+        'messages': '2차 회의시간'
     }
 ]
 # ------------------------------------------------
