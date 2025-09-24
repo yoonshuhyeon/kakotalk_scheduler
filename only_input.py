@@ -146,7 +146,8 @@ def paste_message(message):
     지정된 메시지를 클립보드에 복사한 후, 현재 활성화된 창에 붙여넣고 Enter를 누릅니다.
     """
     clear_screen()
-    print(f"\n[{get_corrected_kst_time().strftime('%Y-%m-%d %H:%M:%S')}] 실행: '{message}' 메시지를 붙여넣고 전송합니다.")
+    print(f"
+[{get_corrected_kst_time().strftime('%Y-%m-%d %H:%M:%S')}] 실행: '{message}' 메시지를 붙여넣고 전송합니다.")
     pyperclip.copy(message)
     
     pyautogui.keyDown('command')
@@ -195,4 +196,7 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\n프로그램을 종료합니다.")
+        print("
+프로그램을 종료합니다.")
+
+# Modified to allow git push
