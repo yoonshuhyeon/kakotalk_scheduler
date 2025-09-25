@@ -1,5 +1,6 @@
 # kakotalk_scheduler
 카카오톡 예약메세지
+only_input.py
 
     {
         'time': '09:00:00',
@@ -10,3 +11,5 @@
 messages에 원하는 문구를 수정
 
 단 원하는 카톡방에 메세지 입력칸을 꼭 눌러놔야됨
+
+fail모음은 수정하면 될수도?
